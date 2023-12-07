@@ -1,0 +1,11 @@
+.margen{
+    margin: 5%;
+}
+
+.fondo{
+    background-color: aliceblue;
+}
+
+.minimo{
+    min-width: 450px;
+}

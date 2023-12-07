@@ -1,0 +1,62 @@
+.main-container {
+    display: flex;
+    min-height: calc(100vh - 4rem);
+}
+
+.dashboard-aside {
+    padding: 1rem;
+    max-width: 300px;
+    min-width: 300px;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevbeep.com%2Fcss-blob-effects%2F&psig=AOvVaw1tjQo0cUWmFNwQRg7X-ktM&ust=1695231123750000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKiRx4Ont4EDFQAAAAAdAAAAABAE);    
+    background-size: cover;
+}
+
+.dashboard-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.dashboard-section {
+    margin-bottom: 2.5rem;
+}
+
+.dashboard-tabview {
+    background-color: aliceblue;
+    flex-grow: 1;
+    scroll-snap-type: mandatory;
+    white-space-collapse: 27px;
+    text-emphasis-position: complict;
+}
+
+.dashboard-item {
+    display: flex;
+    gap: 5px;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+    transition: transform .3s;
+}
+
+.dashboard-item.active, .dashboard-item.active i::before {
+    font-weight: 700;
+}
+
+.dashboard-item:hover:not(.active) {
+    font-weight: 500;
+    cursor: pointer;
+    transform: translateX(6px);
+}
+
+.dashboard-item:hover:not(.active) i::before{
+    font-weight: 500;
+}
+
+.dashboard-tabview {
+    overflow: auto;
+    padding: 2rem;
+    background-image: url("../../assets/images/blob-scatter-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

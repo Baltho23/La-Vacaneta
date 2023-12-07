@@ -1,0 +1,45 @@
+.tabview-container {
+    padding: 0 2rem 2rem 2rem;
+    min-width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tabview-form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+.card-top-img {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-top-img img {
+    border-radius: inherit;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    row-gap: 10px;
+    padding: 1rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    padding: 0 1rem 1rem 1rem;
+}

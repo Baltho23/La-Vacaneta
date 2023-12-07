@@ -1,0 +1,130 @@
+.banner{
+    background: url(https://i.pinimg.com/564x/60/97/14/609714015672063e0762e834cba15a32.jpg) no-repeat center;
+    -ms-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+    display: grid;
+    align-items: center;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.banner::before{
+    content: "";
+    background: rgba(103, 58, 183, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.banner-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.banner-container-two{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.banner-container-info{
+    max-width: 750px;
+    margin: auto;
+}
+
+.banner-title{
+    color: #fff;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.banner-text{
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #00c16e;
+    border-color: #00c16e;
+}
+
+.btn-style {
+    padding: 15px 45px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+    border-radius: 6px;
+}
+
+
+/* ABOUT US SECTION */
+
+.about-us {
+    padding: 3rem 0;
+}
+
+.about-us .container {
+    padding: 48px 15px;
+    margin: 0 auto;
+}
+
+.about-us .side-img {
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    min-width: 300px;
+}
+.about-us-grid {
+    padding: 0 1rem;
+}
+
+.about-us-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #707070;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.about-us-subtitle {
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #404040;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}

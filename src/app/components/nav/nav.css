@@ -1,0 +1,61 @@
+/* HEADER CSS */
+
+.layout-header {
+    display: grid;
+    height: 90px;
+    align-items: center;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+}
+
+.layout-header .container {
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.layout-header .navbar {
+    display: flex;
+    padding: .5rem 0;
+}
+
+.navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar .navbar-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar .navbar-items {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+.navbar-items .navbar-item {
+    padding: 0 .5rem;
+}
+
+.navbar-items .navbar-item .navbar-item-link {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: all .3s;
+    user-select: none;
+}
+
+.navbar-item .navbar-item-link:hover {
+    color: blueviolet;
+}
+
+.navbar-item .navbar-item-link.active {
+    color: blueviolet;
+}
+
+.gris{
+    color: #11181C;
+}
